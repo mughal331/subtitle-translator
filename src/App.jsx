@@ -11,8 +11,8 @@ function App() {
     return saved ? JSON.parse(saved) : {
       apiKey: '',
       promptPattern: 'Translate the following subtitle text from {fromLang} to {toLang}. Maintain the original formatting, timing, and line breaks. Only return the translated text without any explanations:\n\n{text}',
-      requestDelay: 1000,
-      chunkSize: 5,
+      requestDelay: 5000,
+      chunkSize: 50,
       locale: 'en'
     }
   })
@@ -30,7 +30,7 @@ function App() {
         <h1>📝 {t.appTitle}</h1>
         <div className="header-buttons">
           <a 
-            href={import.meta.env.VITE_DONATE_URL || 'https://github.com/sponsors'} 
+            href={import.meta.env.VITE_DONATE_URL || 'https://reymit.ir/alifallahrn'} 
             target="_blank" 
             rel="noopener noreferrer"
             className="donate-btn"
