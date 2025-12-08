@@ -49,31 +49,6 @@ npm run dev
 
 6. Start translating!
 
-## 📦 Deployment
-
-### GitHub Pages
-
-This project is configured for easy deployment to GitHub Pages:
-
-1. Update `vite.config.js` and change the `base` path to match your repository name:
-```javascript
-base: '/your-repo-name/',
-```
-
-2. Build and deploy:
-```bash
-npm run deploy
-```
-
-3. Enable GitHub Pages in your repository settings:
-   - Go to Settings → Pages
-   - Source: `gh-pages` branch
-   - Save
-
-Your app will be live at: `https://yourusername.github.io/your-repo-name/`
-
-For detailed deployment instructions, see [GITHUB_PAGES_DEPLOY.md](GITHUB_PAGES_DEPLOY.md)
-
 ## 🎯 How to Use
 
 1. **Get Your API Key**
@@ -104,7 +79,6 @@ For detailed deployment instructions, see [GITHUB_PAGES_DEPLOY.md](GITHUB_PAGES_
 - **Styling**: Pure CSS3 with modern gradients
 - **State Management**: React Hooks
 - **Storage**: Browser LocalStorage
-- **Deployment**: GitHub Pages
 
 ## 📝 Supported Languages
 
@@ -137,11 +111,6 @@ VITE_DONATE_URL=https://your-donation-link.com  # Optional
 - ✅ Direct communication with Google's Gemini API
 - ✅ No data is sent to any third-party servers
 - ✅ Open source - you can verify the code yourself
-
-## 📖 Documentation
-
-- [GitHub Pages Deployment Guide](GITHUB_PAGES_DEPLOY.md) - Complete deployment instructions
-- [Sample SRT File](sample.srt) - Test subtitle file included
 
 ## 🤝 Contributing
 
