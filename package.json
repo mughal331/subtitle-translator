@@ -1,0 +1,36 @@
+{
+  "name": "subtitle-translator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "subtitle",
+    "translator",
+    "srt",
+    "gemini",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "AI-powered subtitle translator using Google Gemini API",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "body-parser": "^2.2.1",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "vite": "^7.2.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
